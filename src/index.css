@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .border-default{
+    @apply border border-gray-300	dark:border-gray-500;
+  }
+
+  .text-default {
+    @apply font-normal text-gray-800 dark:text-white; 
+  }
+
+  .bg-default {
+    @apply bg-gray-100 dark:bg-black; 
+  }
+
+  .icon-default {
+    @apply text-gray-900 dark:text-white; 
+  }
+}
+
+
+
+.material-symbols-outlined {
+  @apply icon-default;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+dialog::backdrop {
+  background-color: hsla(0, 0%, 0%, 0.500);
+  backdrop-filter: blur(2px);
+}
+

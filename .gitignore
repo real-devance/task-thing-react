@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Environment files
+.env
+
+# Dexie Cloud files
+dexie-cloud.json
+dexie-cloud.key
+
+# TypeScript build files
+*.tsbuildinfo
+
+# Log files
+*.log
+
+# IDE/editor files
+.vscode/
+
+# Build output
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
